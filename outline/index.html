@@ -3,38 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="綠天咖啡 GREEN SKY COFFEE — 專為咖啡喜好者嚴選高海拔微批次精品咖啡豆。以職人慢焙與產地純粹，呈現極致杯測風味。">
-  <title>綠天咖啡 GREEN SKY COFFEE｜頂級高階咖啡豆・萃煉極致純粹</title>
+  <meta name="description" content="伯朗咖啡 MR. BROWN COFFEE — 專為咖啡喜好者嚴選高海拔微批次精品咖啡豆。以職人慢焙與產地純粹，呈現極致杯測風味。">
+  <title>伯朗咖啡 MR. BROWN COFFEE｜頂級高階咖啡豆・萃煉極致純粹</title>
   
-  <!-- Google Fonts: 襯線典雅與現代無襯線結合，營造高奢品牌質感 -->
+  <!-- Google Fonts: 襯線典雅與現代無襯線結合，營造高奢高階咖啡品牌質感 -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Noto+Sans+TC:wght@300;400;500;600;700&family=Noto+Serif+TC:wght@400;600;700;900&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
 
   <style>
     /* --------------------------------------------------
-       綠天咖啡 品牌色彩與設計 Token (高階綠色調品牌識別)
+       伯朗咖啡 品牌色彩與設計 Token (高階咖啡色調品牌識別)
        -------------------------------------------------- */
     :root {
-      --forest-dark: #0a1f16;    /* 墨林深綠：頁首、頁尾、深色區塊 */
-      --forest-deep: #133324;    /* 森林深綠：卡片深色底、強調背景 */
-      --emerald-dark: #1b4d36;   /* 翡翠深綠：主色按鈕、重點高亮 */
-      --emerald-mid: #286348;    /* 翡翠中綠：邊框、副標強調 */
-      --sage-light: #82a893;     /* 鼠尾草綠：柔和強調、輔助標籤 */
-      --sage-pale: #e6f0ea;      /* 鼠尾草極淡綠：商品背景、徽章底 */
-      --mint-glow: #a8e6cf;      /* 嫩芽明綠：夜間高光、微光芒 */
-      --gold-accent: #c59f48;    /* 典雅香檳金：高階尊榮感、精品認證 */
-      --gold-light: #e5bd68;     /* 香檳金高光 */
-      --cream-bg: #f9f8f4;       /* 溫潤羊皮紙米白：全站柔和底色 */
-      --cream-surface: #ffffff;  /* 卡片主體純白 */
-      --cream-subtle: #f3efe6;   /* 溫暖象牙米：交替區塊底色 */
-      --ink-primary: #122119;    /* 深墨綠近黑：主文字閱讀 */
-      --ink-muted: #53695d;      /* 沉靜霧綠：次要說明文字 */
-      --line-subtle: #dde8e1;    /* 淺綠柔和分隔線 */
-      --line-gold: rgba(197, 159, 72, 0.35); /* 金色細邊框 */
-      --shadow-sm: 0 4px 16px rgba(10, 31, 22, 0.06);
-      --shadow-md: 0 14px 38px rgba(10, 31, 22, 0.1);
-      --shadow-lg: 0 24px 60px rgba(10, 31, 22, 0.18);
+      --espresso-dark: #19100a;   /* 極致濃縮黑褐：頁首、頁尾、深色區塊、主按鈕深色背景 */
+      --espresso-deep: #251710;   /* 沉厚深焙啡褐：卡片深色底、強調漸層底 */
+      --mocha-rich: #3e2417;      /* 醇黑摩卡棕：主要品牌色、強調標題、重點按鈕 */
+      --amber-roast: #683e26;     /* 醇焙琥珀棕：邊框、副標強調、風味度量條 */
+      --caramel-warm: #9e6443;    /* 焦糖暖褐：柔和強調、輔助標籤、邊框懸停 */
+      --latte-tint: #f5ece4;      /* 拿鐵奶泡極淡棕：風味標籤底色、徽章底色、卡片微光 */
+      --crema-glow: #e2a866;      /* 克麗瑪金黃暖光：頂部公告列文字、夜間高光、微光芒 */
+      --gold-accent: #cfa858;     /* 典雅香檳金：高階尊榮感、精品認證、星級評價 */
+      --gold-light: #e8c878;      /* 香檳金高光：字體高亮、徽章發光效果 */
+      --cream-bg: #faf7f2;        /* 溫潤象牙米白：全站背景基底色 */
+      --cream-surface: #ffffff;   /* 卡片主體純白 */
+      --cream-subtle: #f4eee5;    /* 溫暖羊皮紙米褐：選豆與評價區交替背景 */
+      --ink-primary: #1f140e;     /* 深炭焙濃縮褐黑：本文內文第一層主要文字 */
+      --ink-muted: #6b574a;       /* 沉靜霧褐：說明文字、規格標籤次要文字 */
+      --line-subtle: #e8ded4;     /* 暖褐柔和分隔線 */
+      --line-gold: rgba(207, 168, 88, 0.38); /* 香檳金半透明細邊框 */
+      --shadow-sm: 0 4px 16px rgba(25, 16, 10, 0.06);
+      --shadow-md: 0 14px 38px rgba(25, 16, 10, 0.1);
+      --shadow-lg: 0 24px 60px rgba(25, 16, 10, 0.2);
       --radius-sm: 4px;
       --radius-md: 8px;
       --radius-lg: 16px;
@@ -109,7 +109,7 @@
       display: inline-flex;
       align-items: center;
       gap: 12px;
-      color: var(--emerald-mid);
+      color: var(--amber-roast);
       font-size: 0.8125rem;
       font-weight: 700;
       letter-spacing: 0.22em;
@@ -130,14 +130,14 @@
       font-size: clamp(2rem, 3.8vw, 2.75rem);
       font-weight: 700;
       line-height: 1.35;
-      color: var(--forest-dark);
+      color: var(--espresso-dark);
       letter-spacing: 0.04em;
       margin-bottom: 18px;
     }
 
     .section-title em {
       font-style: normal;
-      color: var(--emerald-dark);
+      color: var(--amber-roast);
       position: relative;
     }
 
@@ -162,16 +162,16 @@
     }
 
     .btn-gold {
-      background: linear-gradient(135deg, #d4af37 0%, #b88a24 100%);
-      color: #0d2117;
+      background: linear-gradient(135deg, #d8b257 0%, #b38827 100%);
+      color: #19100a;
       font-weight: 700;
-      box-shadow: 0 8px 24px rgba(184, 138, 36, 0.32);
+      box-shadow: 0 8px 24px rgba(179, 136, 39, 0.32);
     }
 
     .btn-gold:hover {
-      background: linear-gradient(135deg, #e3be47 0%, #c99828 100%);
+      background: linear-gradient(135deg, #e5bf65 0%, #c49631 100%);
       transform: translateY(-2px);
-      box-shadow: 0 12px 30px rgba(184, 138, 36, 0.45);
+      box-shadow: 0 12px 30px rgba(179, 136, 39, 0.45);
     }
 
     .btn-outline-gold {
@@ -181,22 +181,22 @@
     }
 
     .btn-outline-gold:hover {
-      background: rgba(197, 159, 72, 0.12);
+      background: rgba(207, 168, 88, 0.15);
       color: #fff;
       border-color: #fff;
       transform: translateY(-2px);
     }
 
-    .btn-emerald {
-      background: var(--emerald-dark);
+    .btn-coffee {
+      background: var(--mocha-rich);
       color: #ffffff;
-      box-shadow: 0 8px 20px rgba(27, 77, 54, 0.28);
+      box-shadow: 0 8px 20px rgba(62, 36, 23, 0.3);
     }
 
-    .btn-emerald:hover {
-      background: #235f43;
+    .btn-coffee:hover {
+      background: #533120;
       transform: translateY(-2px);
-      box-shadow: 0 12px 28px rgba(27, 77, 54, 0.38);
+      box-shadow: 0 12px 28px rgba(62, 36, 23, 0.42);
     }
 
     .btn-sm {
@@ -208,8 +208,8 @@
        頂部公告列 Announcement Bar
        -------------------------------------------------- */
     .top-bar {
-      background-color: #071710;
-      color: var(--mint-glow);
+      background-color: #120b07;
+      color: var(--crema-glow);
       font-size: 0.75rem;
       letter-spacing: 0.14em;
       padding: 7px 0;
@@ -231,9 +231,9 @@
       position: sticky;
       top: 0;
       z-index: 1000;
-      background: rgba(10, 31, 22, 0.95);
+      background: rgba(25, 16, 10, 0.95);
       backdrop-filter: blur(12px);
-      border-bottom: 1px solid rgba(130, 168, 147, 0.2);
+      border-bottom: 1px solid rgba(207, 168, 88, 0.22);
       color: #ffffff;
       transition: var(--transition-base);
     }
@@ -258,8 +258,8 @@
       border-radius: 50%;
       display: grid;
       place-items: center;
-      background: radial-gradient(circle, #1a4430 0%, #0d2818 100%);
-      box-shadow: 0 0 18px rgba(197, 159, 72, 0.25);
+      background: radial-gradient(circle, #3e2417 0%, #1f140e 100%);
+      box-shadow: 0 0 18px rgba(207, 168, 88, 0.28);
     }
 
     .brand-crest svg {
@@ -282,7 +282,7 @@
       font-family: "Cinzel", serif;
       font-size: 0.625rem;
       letter-spacing: 0.26em;
-      color: var(--sage-light);
+      color: var(--crema-glow);
       margin-top: 3px;
     }
 
@@ -333,15 +333,15 @@
       align-items: center;
       gap: 8px;
       padding: 8px 14px;
-      border: 1px solid rgba(197, 159, 72, 0.4);
+      border: 1px solid rgba(207, 168, 88, 0.45);
       border-radius: var(--radius-sm);
       color: #ffffff;
       font-size: 0.875rem;
-      background: rgba(27, 77, 54, 0.3);
+      background: rgba(62, 36, 23, 0.4);
     }
 
     .cart-trigger:hover {
-      background: rgba(197, 159, 72, 0.2);
+      background: rgba(207, 168, 88, 0.2);
       border-color: var(--gold-accent);
     }
 
@@ -353,7 +353,7 @@
       padding: 0 5px;
       border-radius: 10px;
       background: var(--gold-accent);
-      color: #0a1f16;
+      color: #19100a;
       font-size: 0.75rem;
       font-weight: 700;
     }
@@ -366,18 +366,18 @@
     }
 
     /* --------------------------------------------------
-       Hero 旗艦主視覺區 (高階自然與職人手沖結合)
+       Hero 旗艦主視覺區 (高階莊園與職人慢焙結合)
        -------------------------------------------------- */
     .hero-section {
       position: relative;
-      background: linear-gradient(175deg, #091a12 0%, #102d20 50%, #0d2319 100%);
+      background: linear-gradient(175deg, #140d08 0%, #291a12 50%, #1a110a 100%);
       color: #ffffff;
       overflow: hidden;
       padding: 90px 0 100px;
-      border-bottom: 1px solid rgba(197, 159, 72, 0.2);
+      border-bottom: 1px solid rgba(207, 168, 88, 0.22);
     }
 
-    /* 背景環境光與雲霧效果 */
+    /* 背景環境光與雲霧琥珀光暈 */
     .hero-section::before {
       content: "";
       position: absolute;
@@ -385,7 +385,7 @@
       left: 10%;
       width: 600px;
       height: 600px;
-      background: radial-gradient(circle, rgba(40, 99, 72, 0.4) 0%, transparent 70%);
+      background: radial-gradient(circle, rgba(158, 100, 67, 0.35) 0%, transparent 70%);
       filter: blur(80px);
       pointer-events: none;
     }
@@ -397,7 +397,7 @@
       right: 5%;
       width: 500px;
       height: 500px;
-      background: radial-gradient(circle, rgba(197, 159, 72, 0.18) 0%, transparent 70%);
+      background: radial-gradient(circle, rgba(207, 168, 88, 0.22) 0%, transparent 70%);
       filter: blur(70px);
       pointer-events: none;
     }
@@ -415,7 +415,7 @@
       display: inline-flex;
       align-items: center;
       gap: 10px;
-      background: rgba(197, 159, 72, 0.12);
+      background: rgba(207, 168, 88, 0.14);
       border: 1px solid var(--line-gold);
       padding: 6px 16px;
       border-radius: 30px;
@@ -450,14 +450,14 @@
     }
 
     .hero-title span.gold-highlight {
-      background: linear-gradient(135deg, #f7d57f 0%, #c59f48 100%);
+      background: linear-gradient(135deg, #f7d57f 0%, #cfa858 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       display: inline-block;
     }
 
     .hero-desc {
-      color: rgba(230, 240, 234, 0.85);
+      color: rgba(245, 236, 228, 0.88);
       font-size: 1.125rem;
       line-height: 1.85;
       max-width: 520px;
@@ -494,7 +494,7 @@
 
     .trust-item span {
       font-size: 0.8125rem;
-      color: var(--sage-light);
+      color: var(--crema-glow);
       line-height: 1.35;
       letter-spacing: 0.04em;
     }
@@ -508,11 +508,11 @@
     /* 頂級視覺藝術插畫卡片 (CSS / SVG 幾何意象) */
     .hero-visual-card {
       position: relative;
-      background: radial-gradient(circle at 50% 40%, #173f2c 0%, #0d261a 80%);
-      border: 1px solid rgba(197, 159, 72, 0.3);
+      background: radial-gradient(circle at 50% 40%, #2f1d14 0%, #19100a 80%);
+      border: 1px solid rgba(207, 168, 88, 0.35);
       border-radius: var(--radius-lg);
       padding: 38px 30px;
-      box-shadow: var(--shadow-lg), 0 0 50px rgba(27, 77, 54, 0.35);
+      box-shadow: var(--shadow-lg), 0 0 50px rgba(62, 36, 23, 0.45);
       text-align: center;
       overflow: hidden;
     }
@@ -540,7 +540,7 @@
       position: absolute;
       width: 220px;
       height: 220px;
-      border: 1px dashed rgba(197, 159, 72, 0.4);
+      border: 1px dashed rgba(207, 168, 88, 0.45);
       border-radius: 50%;
       animation: rotateRing 30s linear infinite;
     }
@@ -553,7 +553,7 @@
     .coffee-beans-svg {
       width: 140px;
       height: 140px;
-      filter: drop-shadow(0 12px 25px rgba(0, 0, 0, 0.5));
+      filter: drop-shadow(0 12px 25px rgba(0, 0, 0, 0.6));
     }
 
     .card-award-tag {
@@ -577,7 +577,7 @@
 
     .card-bean-origin {
       font-size: 0.8125rem;
-      color: var(--sage-light);
+      color: var(--crema-glow);
       margin-bottom: 18px;
       letter-spacing: 0.08em;
     }
@@ -586,7 +586,7 @@
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      background: rgba(10, 31, 22, 0.8);
+      background: rgba(25, 16, 10, 0.85);
       border: 1px solid var(--gold-accent);
       border-radius: 30px;
       padding: 6px 18px;
@@ -628,15 +628,15 @@
     .pillar-card:hover {
       transform: translateY(-6px);
       box-shadow: var(--shadow-md);
-      border-color: var(--sage-light);
+      border-color: var(--caramel-warm);
     }
 
     .pillar-num {
       font-family: "Cinzel", serif;
       font-size: 1.75rem;
       font-weight: 700;
-      color: var(--emerald-dark);
-      opacity: 0.35;
+      color: var(--amber-roast);
+      opacity: 0.45;
       margin-bottom: 16px;
     }
 
@@ -644,7 +644,7 @@
       font-family: "Noto Serif TC", serif;
       font-size: 1.25rem;
       font-weight: 700;
-      color: var(--forest-dark);
+      color: var(--espresso-dark);
       margin-bottom: 12px;
       letter-spacing: 0.02em;
     }
@@ -686,15 +686,15 @@
     }
 
     .tab-btn:hover {
-      border-color: var(--emerald-mid);
-      color: var(--forest-dark);
+      border-color: var(--amber-roast);
+      color: var(--espresso-dark);
     }
 
     .tab-btn.active {
-      background: var(--forest-dark);
+      background: var(--espresso-dark);
       color: #ffffff;
-      border-color: var(--forest-dark);
-      box-shadow: 0 4px 14px rgba(10, 31, 22, 0.2);
+      border-color: var(--espresso-dark);
+      box-shadow: 0 4px 14px rgba(25, 16, 10, 0.25);
     }
 
     .beans-grid {
@@ -718,7 +718,7 @@
     .bean-card:hover {
       transform: translateY(-8px);
       box-shadow: var(--shadow-lg);
-      border-color: var(--emerald-mid);
+      border-color: var(--amber-roast);
     }
 
     .bean-card.featured-card {
@@ -731,8 +731,8 @@
       top: 16px;
       right: 16px;
       z-index: 5;
-      background: linear-gradient(135deg, #d4af37, #9f7516);
-      color: #0d2117;
+      background: linear-gradient(135deg, #d8b257, #9e741f);
+      color: #19100a;
       font-size: 0.6875rem;
       font-weight: 700;
       letter-spacing: 0.1em;
@@ -743,7 +743,7 @@
 
     .bean-header {
       padding: 28px 24px 18px;
-      background: linear-gradient(180deg, rgba(230, 240, 234, 0.5) 0%, transparent 100%);
+      background: linear-gradient(180deg, rgba(245, 236, 228, 0.7) 0%, transparent 100%);
       border-bottom: 1px solid var(--line-subtle);
       display: flex;
       justify-content: space-between;
@@ -753,7 +753,7 @@
     .bean-meta-top {
       font-size: 0.75rem;
       letter-spacing: 0.12em;
-      color: var(--emerald-mid);
+      color: var(--amber-roast);
       font-weight: 600;
       text-transform: uppercase;
       margin-bottom: 6px;
@@ -763,12 +763,12 @@
       font-family: "Noto Serif TC", serif;
       font-size: 1.4rem;
       font-weight: 700;
-      color: var(--forest-dark);
+      color: var(--espresso-dark);
       line-height: 1.35;
     }
 
     .sca-score {
-      background: var(--forest-dark);
+      background: var(--espresso-dark);
       color: var(--gold-light);
       padding: 6px 12px;
       border-radius: var(--radius-sm);
@@ -781,7 +781,7 @@
       display: block;
       font-size: 0.5625rem;
       letter-spacing: 0.1em;
-      color: var(--sage-light);
+      color: var(--crema-glow);
     }
 
     .sca-score strong {
@@ -834,12 +834,13 @@
     }
 
     .flavor-tag {
-      background: var(--sage-pale);
-      color: var(--emerald-dark);
+      background: var(--latte-tint);
+      color: var(--mocha-rich);
       font-size: 0.75rem;
       font-weight: 600;
       padding: 3px 10px;
       border-radius: 4px;
+      border: 1px solid rgba(158, 100, 67, 0.15);
     }
 
     /* 風味雷達描述條 */
@@ -863,7 +864,7 @@
     .meter-bar {
       flex: 1;
       height: 5px;
-      background: #e4ece7;
+      background: #eee5dc;
       border-radius: 3px;
       margin: 0 10px;
       overflow: hidden;
@@ -871,7 +872,7 @@
 
     .meter-fill {
       height: 100%;
-      background: linear-gradient(90deg, var(--emerald-mid), var(--gold-accent));
+      background: linear-gradient(90deg, var(--amber-roast), var(--gold-accent));
       border-radius: 3px;
     }
 
@@ -899,14 +900,14 @@
       font-family: "Cinzel", "Noto Serif TC", serif;
       font-size: 1.35rem;
       font-weight: 700;
-      color: var(--forest-dark);
+      color: var(--espresso-dark);
     }
 
     /* --------------------------------------------------
        促銷刺激區：首購禮包與滿額免運優惠 (Sales Incentive)
        -------------------------------------------------- */
     .promo-banner {
-      background: linear-gradient(135deg, #133324 0%, #0a1f16 100%);
+      background: linear-gradient(135deg, #2a1910 0%, #150d08 100%);
       color: #ffffff;
       border-radius: var(--radius-lg);
       padding: 48px 40px;
@@ -924,7 +925,7 @@
       right: -10%;
       width: 400px;
       height: 400px;
-      background: radial-gradient(circle, rgba(197, 159, 72, 0.15) 0%, transparent 70%);
+      background: radial-gradient(circle, rgba(207, 168, 88, 0.18) 0%, transparent 70%);
       pointer-events: none;
     }
 
@@ -950,7 +951,7 @@
     }
 
     .promo-content p {
-      color: var(--sage-light);
+      color: var(--crema-glow);
       font-size: 0.95rem;
       max-width: 560px;
     }
@@ -959,7 +960,7 @@
       display: inline-flex;
       align-items: center;
       gap: 12px;
-      background: rgba(0, 0, 0, 0.3);
+      background: rgba(0, 0, 0, 0.35);
       border: 1px dashed var(--gold-accent);
       padding: 8px 18px;
       border-radius: 6px;
@@ -997,7 +998,7 @@
     }
 
     .club-card-box {
-      background: linear-gradient(145deg, #10291d 0%, #081a11 100%);
+      background: linear-gradient(145deg, #24160f 0%, #120b07 100%);
       border: 1px solid var(--line-gold);
       border-radius: var(--radius-lg);
       padding: 48px 40px;
@@ -1034,7 +1035,7 @@
 
     .club-price small {
       font-size: 0.9375rem;
-      color: var(--sage-light);
+      color: var(--crema-glow);
       font-family: "Noto Sans TC", sans-serif;
     }
 
@@ -1089,7 +1090,7 @@
       width: 36px;
       height: 36px;
       border-radius: 50%;
-      background: var(--emerald-dark);
+      background: var(--mocha-rich);
       color: #ffffff;
       font-family: "Cinzel", serif;
       font-weight: 700;
@@ -1103,7 +1104,7 @@
       font-family: "Cinzel", serif;
       font-size: 1.4rem;
       font-weight: 700;
-      color: var(--forest-dark);
+      color: var(--espresso-dark);
       margin-bottom: 6px;
     }
 
@@ -1111,7 +1112,7 @@
       font-family: "Noto Serif TC", serif;
       font-size: 1.05rem;
       font-weight: 700;
-      color: var(--emerald-dark);
+      color: var(--amber-roast);
       margin-bottom: 8px;
     }
 
@@ -1173,18 +1174,19 @@
       width: 42px;
       height: 42px;
       border-radius: 50%;
-      background: var(--sage-pale);
-      color: var(--emerald-dark);
+      background: var(--latte-tint);
+      color: var(--mocha-rich);
       display: grid;
       place-items: center;
       font-weight: 700;
       font-size: 0.9rem;
+      border: 1px solid rgba(158, 100, 67, 0.2);
     }
 
     .reviewer-info strong {
       display: block;
       font-size: 0.875rem;
-      color: var(--forest-dark);
+      color: var(--espresso-dark);
     }
 
     .reviewer-info span {
@@ -1197,7 +1199,7 @@
        -------------------------------------------------- */
     .newsletter-section {
       padding: 90px 0;
-      background: linear-gradient(135deg, #091c13 0%, #133324 100%);
+      background: linear-gradient(135deg, #160e09 0%, #291a12 100%);
       color: #ffffff;
       text-align: center;
       border-top: 1px solid var(--line-gold);
@@ -1220,7 +1222,7 @@
     }
 
     .newsletter-box p {
-      color: var(--sage-light);
+      color: var(--crema-glow);
       margin-bottom: 32px;
       font-size: 1rem;
     }
@@ -1229,10 +1231,10 @@
       display: flex;
       max-width: 480px;
       margin: 0 auto;
-      border: 1px solid rgba(197, 159, 72, 0.45);
+      border: 1px solid rgba(207, 168, 88, 0.5);
       border-radius: var(--radius-sm);
       overflow: hidden;
-      background: rgba(0, 0, 0, 0.25);
+      background: rgba(0, 0, 0, 0.3);
     }
 
     .newsletter-form input {
@@ -1246,13 +1248,13 @@
     }
 
     .newsletter-form input::placeholder {
-      color: rgba(255, 255, 255, 0.5);
+      color: rgba(255, 255, 255, 0.55);
     }
 
     .newsletter-form button {
       padding: 0 24px;
       background: var(--gold-accent);
-      color: #0d2117;
+      color: #19100a;
       font-weight: 700;
       letter-spacing: 0.06em;
       white-space: nowrap;
@@ -1266,7 +1268,7 @@
        頁尾 Footer
        -------------------------------------------------- */
     .site-footer {
-      background: #06130d;
+      background: #0f0906;
       color: rgba(255, 255, 255, 0.65);
       font-size: 0.875rem;
       padding: 70px 0 30px;
@@ -1315,7 +1317,7 @@
     .cart-drawer-overlay {
       position: fixed;
       inset: 0;
-      background: rgba(0, 0, 0, 0.65);
+      background: rgba(0, 0, 0, 0.68);
       z-index: 2000;
       opacity: 0;
       pointer-events: none;
@@ -1336,7 +1338,7 @@
       height: 100vh;
       background: #ffffff;
       z-index: 2001;
-      box-shadow: -10px 0 30px rgba(0, 0, 0, 0.25);
+      box-shadow: -10px 0 30px rgba(0, 0, 0, 0.3);
       display: flex;
       flex-direction: column;
       transform: translateX(100%);
@@ -1353,7 +1355,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      background: var(--forest-dark);
+      background: var(--espresso-dark);
       color: #ffffff;
     }
 
@@ -1387,7 +1389,7 @@
     .cart-empty-state svg {
       width: 48px;
       height: 48px;
-      fill: var(--sage-light);
+      fill: var(--caramel-warm);
       margin-bottom: 12px;
     }
 
@@ -1402,7 +1404,7 @@
     .cart-item-info strong {
       display: block;
       font-size: 0.9375rem;
-      color: var(--forest-dark);
+      color: var(--espresso-dark);
     }
 
     .cart-item-info span {
@@ -1425,11 +1427,11 @@
       place-items: center;
       font-size: 0.875rem;
       font-weight: 700;
-      color: var(--forest-dark);
+      color: var(--espresso-dark);
     }
 
     .qty-btn:hover {
-      background: var(--sage-pale);
+      background: var(--latte-tint);
     }
 
     .cart-footer {
@@ -1452,7 +1454,7 @@
       justify-content: space-between;
       align-items: center;
       font-size: 0.875rem;
-      color: var(--emerald-dark);
+      color: var(--amber-roast);
       margin-bottom: 16px;
     }
 
@@ -1473,7 +1475,7 @@
 
     .cart-coupon-input button {
       padding: 8px 14px;
-      background: var(--forest-dark);
+      background: var(--espresso-dark);
       color: #ffffff;
       border-radius: 4px;
       font-size: 0.75rem;
@@ -1487,7 +1489,7 @@
       position: fixed;
       bottom: 24px;
       right: 24px;
-      background: var(--forest-dark);
+      background: var(--espresso-dark);
       color: #ffffff;
       border-left: 4px solid var(--gold-accent);
       padding: 14px 22px;
@@ -1553,7 +1555,7 @@
         top: 80px;
         left: 0;
         right: 0;
-        background: var(--forest-dark);
+        background: var(--espresso-dark);
         flex-direction: column;
         padding: 30px 24px;
         gap: 20px;
@@ -1593,23 +1595,23 @@
   <!-- 頂部高階咖啡豆首購優惠公告 -->
   <aside class="top-bar">
     <div class="wrap">
-      極境尋味・全館滿 NT$1,200 即享黑貓冷鏈免運 ｜ 首購輸入折扣碼 <strong>GREENSKY</strong> 現抵 $100
+      極境尋味・全館滿 NT$1,200 即享黑貓冷鏈免運 ｜ 首購輸入折扣碼 <strong>MRBROWN</strong> 現抵 $100
     </div>
   </aside>
 
   <!-- 網站頂部導覽列 -->
   <header class="site-header" id="top">
     <div class="wrap nav-container">
-      <a href="#top" class="brand-logo" aria-label="返回綠天咖啡首頁">
+      <a href="#top" class="brand-logo" aria-label="返回伯朗咖啡首頁">
         <div class="brand-crest">
-          <!-- 典雅咖啡豆與微風綠葉向量徽章 -->
+          <!-- 典雅咖啡豆與烘焙金光向量徽章 -->
           <svg viewBox="0 0 24 24" aria-hidden="true">
             <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 10.5c-1.93 0-3.5-1.57-3.5-3.5S10.07 5.5 12 5.5s3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"/>
           </svg>
         </div>
         <div class="brand-text">
-          <h1>綠天咖啡</h1>
-          <span>GREEN SKY COFFEE</span>
+          <h1>伯朗咖啡</h1>
+          <span>MR. BROWN COFFEE</span>
         </div>
       </a>
 
@@ -1653,7 +1655,7 @@
             淬鍊<span class="gold-highlight">高階咖啡</span>的純粹。
           </h2>
           <p class="hero-desc">
-            綠天咖啡專注尋訪海拔 1,900 米以上的微型莊園。每一顆熟成紅果皆由雙手細緻摘選，透過直火低速慢焙，完整留存風土之中的細膩花香與澄澈回甘。
+            伯朗咖啡專注尋訪海拔 1,900 米以上的微型莊園。每一顆熟成紅果皆由雙手細緻摘選，透過直火低速慢焙，完整留存風土之中的細膩花香與澄澈回甘。
           </p>
           <div class="hero-cta-group">
             <a href="#selection" class="btn btn-gold">
@@ -1679,15 +1681,15 @@
         <div class="hero-visual-card">
           <div class="coffee-illustration-container">
             <div class="halo-ring"></div>
-            <!-- 高階咖啡豆與沖煮純粹向量圖形 -->
+            <!-- 高階咖啡豆與沖煮純粹向量圖形 (暖咖啡金棕漸層) -->
             <svg class="coffee-beans-svg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="100" cy="100" r="90" fill="url(#coffeeGrad)" stroke="#c59f48" stroke-width="2"/>
-              <ellipse cx="100" cy="100" rx="48" ry="68" fill="#1b4d36" stroke="#e5bd68" stroke-width="2.5" transform="rotate(-25 100 100)"/>
-              <path d="M80 50 C95 85, 105 115, 120 150" stroke="#c59f48" stroke-width="3.5" stroke-linecap="round"/>
+              <circle cx="100" cy="100" r="90" fill="url(#coffeeGrad)" stroke="#cfa858" stroke-width="2"/>
+              <ellipse cx="100" cy="100" rx="48" ry="68" fill="#3e2417" stroke="#e8c878" stroke-width="2.5" transform="rotate(-25 100 100)"/>
+              <path d="M80 50 C95 85, 105 115, 120 150" stroke="#cfa858" stroke-width="3.5" stroke-linecap="round"/>
               <defs>
                 <radialGradient id="coffeeGrad" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(100 100) rotate(90) scale(90)">
-                  <stop stop-color="#1e4e37"/>
-                  <stop offset="1" stop-color="#0a1f16"/>
+                  <stop stop-color="#4a2e1f"/>
+                  <stop offset="1" stop-color="#19100a"/>
                 </radialGradient>
               </defs>
             </svg>
@@ -1904,7 +1906,7 @@
                 <span class="price-sub">規格 200g 充氮包裝</span>
                 <span class="price-amount">NT$ 580</span>
               </div>
-              <button class="btn btn-emerald btn-sm add-to-cart-btn" 
+              <button class="btn btn-coffee btn-sm add-to-cart-btn" 
                       data-name="衣索比亞・古吉 罕貝拉 G1 (200g)" 
                       data-price="580" 
                       type="button">
@@ -1973,7 +1975,7 @@
                 <span class="price-sub">規格 200g 充氮包裝</span>
                 <span class="price-amount">NT$ 620</span>
               </div>
-              <button class="btn btn-emerald btn-sm add-to-cart-btn" 
+              <button class="btn btn-coffee btn-sm add-to-cart-btn" 
                       data-name="肯亞・涅里高原 AA TOP (200g)" 
                       data-price="620" 
                       type="button">
@@ -2042,7 +2044,7 @@
                 <span class="price-sub">規格 200g 充氮包裝</span>
                 <span class="price-amount">NT$ 720</span>
               </div>
-              <button class="btn btn-emerald btn-sm add-to-cart-btn" 
+              <button class="btn btn-coffee btn-sm add-to-cart-btn" 
                       data-name="哥倫比亞・希望莊園 酒桶蜜處理 (200g)" 
                       data-price="720" 
                       type="button">
@@ -2060,7 +2062,7 @@
               <p>喜愛頂級單品咖啡的您，結帳時輸入專屬迎賓優惠券即可現抵，滿額另享黑貓全程冷鏈溫控直送到府。</p>
               <div class="coupon-pill">
                 <span>專屬優惠碼：</span>
-                <span class="coupon-code" id="couponCodeText">GREENSKY</span>
+                <span class="coupon-code" id="couponCodeText">MRBROWN</span>
                 <button class="copy-coupon-btn" id="copyCouponBtn" type="button">點擊複製</button>
               </div>
             </div>
@@ -2082,7 +2084,7 @@
         <div class="club-grid">
           <div>
             <p class="eyebrow">COFFEE SUBSCRIPTION</p>
-            <h2 class="section-title">綠天尊享・<em>產地風味訂閱俱樂部</em></h2>
+            <h2 class="section-title">伯朗尊享・<em>產地風味訂閱俱樂部</em></h2>
             <p class="section-subtitle" style="margin-bottom: 24px;">
               每個月，我們為會員量身烘焙兩款當季微批次珍稀莊園豆。讓您不必費心挑選，在家就能同步品嚐全球頂尖競標級咖啡風土。
             </p>
@@ -2090,10 +2092,10 @@
               隨箱附贈莊園主產地故事卡、專業沖煮參數手冊，以及由 Q-Grader 精選的隱藏版試飲掛耳包。
             </p>
             <div style="display: flex; gap: 16px;">
-              <button class="btn btn-emerald" id="subscribeClubBtn" type="button">
+              <button class="btn btn-coffee" id="subscribeClubBtn" type="button">
                 加入尊享訂閱方案
               </button>
-              <a href="#guide" class="btn btn-sm" style="border: 1px solid var(--emerald-dark); color: var(--emerald-dark);">
+              <a href="#guide" class="btn btn-sm" style="border: 1px solid var(--mocha-rich); color: var(--mocha-rich);">
                 了解沖煮指引
               </a>
             </div>
@@ -2140,7 +2142,7 @@
           <p class="eyebrow">BREWING COMPASS</p>
           <h2 class="section-title">高階豆的最佳<em>手沖萃取參數</em></h2>
           <p class="section-subtitle">
-            好的豆子需要合宜的水溫與時間相伴。遵循綠天黃金萃取指引，輕鬆在家還原杯測室的澄澈風味。
+            好的豆子需要合宜的水溫與時間相伴。遵循伯朗黃金萃取指引，輕鬆在家還原杯測室的澄澈風味。
           </p>
         </div>
 
@@ -2218,7 +2220,7 @@
             <div>
               <div class="review-stars">★★★★★</div>
               <p class="review-quote">
-                「已經訂閱綠天俱樂部半年，每個月收到開箱都像收到珍貴禮物。充氮保鮮做得很扎實，開袋那一刻香氣撲鼻，天天都期待手沖時刻。」
+                「已經訂閱伯朗俱樂部半年，每個月收到開箱都像收到珍貴禮物。充氮保鮮做得很扎實，開袋那一刻香氣撲鼻，天天都期待手沖時刻。」
               </p>
             </div>
             <div class="reviewer-meta">
@@ -2257,7 +2259,7 @@
         <div class="newsletter-box">
           <p class="eyebrow">EXCLUSIVE ACCESS</p>
           <h2>獲取珍稀微批次開賣第一手通知</h2>
-          <p>訂閱綠天咖啡風味通訊，每週分享產地採購紀實、最新批次杯測評分，並獲取會員專屬特惠碼。</p>
+          <p>訂閱伯朗咖啡風味通訊，每週分享產地採購紀實、最新批次杯測評分，並獲取會員專屬特惠碼。</p>
           <form class="newsletter-form" id="newsletterForm">
             <input type="email" placeholder="輸入您的電子信箱" required aria-label="電子郵件">
             <button type="submit">訂閱獲取折扣券</button>
@@ -2276,17 +2278,17 @@
         <div class="footer-col">
           <div class="brand-logo" style="margin-bottom: 18px;">
             <div class="brand-crest" style="width: 36px; height: 36px;">
-              <svg viewBox="0 0 24 24" style="width: 18px; height: 18px;" fill="#c59f48">
+              <svg viewBox="0 0 24 24" style="width: 18px; height: 18px;" fill="#cfa858">
                 <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 10.5c-1.93 0-3.5-1.57-3.5-3.5S10.07 5.5 12 5.5s3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"/>
               </svg>
             </div>
             <div class="brand-text">
-              <h2 style="font-size: 1.15rem; color: #fff;">綠天咖啡</h2>
-              <span>GREEN SKY COFFEE</span>
+              <h2 style="font-size: 1.15rem; color: #fff;">伯朗咖啡</h2>
+              <span>MR. BROWN COFFEE</span>
             </div>
           </div>
-          <p style="font-size: 0.8125rem; line-height: 1.8; color: var(--sage-light); max-width: 280px;">
-            讓風味在晨光微風中甦醒。為注重生活細節的你，尋訪世界極境莊園，敬呈一杯值得靜心的極致好咖啡。
+          <p style="font-size: 0.8125rem; line-height: 1.8; color: var(--crema-glow); max-width: 280px;">
+            讓風味在醇厚慢焙中甦醒。為注重生活細節的你，尋訪世界極境莊園，敬呈一杯值得靜心的極致好咖啡。
           </p>
         </div>
 
@@ -2303,16 +2305,16 @@
         <div class="footer-col">
           <h4>品飲門市與體驗</h4>
           <ul class="footer-links">
-            <li>台北市大安區青田街 28 號</li>
-            <li>每日營業：10:00 — 18:30</li>
-            <li>預約專線：(02) 2391-7890</li>
-            <li>客服信箱：concierge@greensky.coffee</li>
+            <li>台北市中山區南京東路二段 218 號</li>
+            <li>每日營業：08:00 — 20:00</li>
+            <li>預約專線：(02) 2507-7600</li>
+            <li>客服信箱：concierge@mrbrown.coffee</li>
           </ul>
         </div>
 
         <div class="footer-col">
           <h4>品質承諾</h4>
-          <p style="font-size: 0.8125rem; line-height: 1.7; color: var(--sage-light); margin-bottom: 14px;">
+          <p style="font-size: 0.8125rem; line-height: 1.7; color: var(--crema-glow); margin-bottom: 14px;">
             本站所有咖啡豆皆投保一千萬元產品責任險，全系列包裝採用日本進口單向排氣充氮鋁箔袋。
           </p>
           <div style="color: var(--gold-light); font-size: 0.75rem;">
@@ -2323,7 +2325,7 @@
       </div>
 
       <div class="footer-bottom">
-        <div>© 2026 綠天咖啡 GREEN SKY COFFEE. ALL RIGHTS RESERVED.</div>
+        <div>© 2026 伯朗咖啡 MR. BROWN COFFEE. ALL RIGHTS RESERVED.</div>
         <div>HIGHLAND TERROIR · ARTISAN ROASTED · PURE CRAFT</div>
       </div>
     </div>
@@ -2349,7 +2351,7 @@
 
     <div class="cart-footer">
       <div class="cart-coupon-input">
-        <input type="text" id="couponInput" placeholder="輸入折扣碼 (如 GREENSKY)">
+        <input type="text" id="couponInput" placeholder="輸入折扣碼 (如 MRBROWN)">
         <button type="button" id="applyCouponBtn">套用</button>
       </div>
       <div class="cart-discount" id="discountRow" style="display: none;">
@@ -2358,7 +2360,7 @@
       </div>
       <div class="cart-subtotal">
         <span>小計金額</span>
-        <span id="cartTotalPrice" style="color: var(--forest-dark); font-weight: 700;">NT$ 0</span>
+        <span id="cartTotalPrice" style="color: var(--espresso-dark); font-weight: 700;">NT$ 0</span>
       </div>
       <button class="btn btn-gold" id="checkoutBtn" style="width: 100%;" type="button">
         立即結帳享風味直送
@@ -2515,16 +2517,16 @@
         renderCart();
       });
 
-      // 折扣碼驗證邏輯
+      // 折扣碼驗證邏輯 (支援 MRBROWN 與 BROWNCOFFEE)
       function applyCoupon() {
         const code = couponInput.value.trim().toUpperCase();
-        if (code === 'GREENSKY') {
+        if (code === 'MRBROWN' || code === 'BROWNCOFFEE') {
           if (cart.length === 0) {
             showToast('請先加入喜愛的咖啡豆再套用折扣碼');
             return;
           }
           discountAmount = 100;
-          appliedCoupon = 'GREENSKY';
+          appliedCoupon = code;
           renderCart();
           showToast('成功折抵 NT$ 100 首購優惠券！');
         } else if (code === '') {
@@ -2540,7 +2542,7 @@
       const applyPromoBtn = document.getElementById('applyPromoToCartBtn');
       if (applyPromoBtn) {
         applyPromoBtn.addEventListener('click', () => {
-          couponInput.value = 'GREENSKY';
+          couponInput.value = 'MRBROWN';
           applyCoupon();
           toggleCart(true);
         });
@@ -2550,10 +2552,10 @@
       const copyCouponBtn = document.getElementById('copyCouponBtn');
       if (copyCouponBtn) {
         copyCouponBtn.addEventListener('click', () => {
-          navigator.clipboard.writeText('GREENSKY').then(() => {
-            showToast('已複製優惠碼 GREENSKY，可在結帳時貼上套用！');
+          navigator.clipboard.writeText('MRBROWN').then(() => {
+            showToast('已複製優惠碼 MRBROWN，可在結帳時貼上套用！');
           }).catch(() => {
-            showToast('優惠代碼為 GREENSKY');
+            showToast('優惠代碼為 MRBROWN');
           });
         });
       }
@@ -2564,7 +2566,7 @@
       [subscribeClubBtn, directJoinClubBtn].forEach(btn => {
         if (btn) {
           btn.addEventListener('click', () => {
-            addToCart('綠天尊享・微批次月配方案 (2袋共400g)', 1280);
+            addToCart('伯朗尊享・微批次月配方案 (2袋共400g)', 1280);
             toggleCart(true);
           });
         }
@@ -2576,7 +2578,7 @@
           showToast('品味車內尚未有選豆，請先挑選商品');
           return;
         }
-        alert('感謝您選購綠天咖啡！\n系統已為您建立訂單，我們將於 24 小時內新鮮現烘，並以冷鏈配送寄出。');
+        alert('感謝您選購伯朗咖啡！\n系統已為您建立訂單，我們將於 24 小時內新鮮現烘，並以冷鏈配送寄出。');
         cart = [];
         discountAmount = 0;
         appliedCoupon = '';
@@ -2610,7 +2612,7 @@
       if (newsletterForm) {
         newsletterForm.addEventListener('submit', (e) => {
           e.preventDefault();
-          showToast('感謝訂閱！首購優惠碼 GREENSKY 已發送至您的信箱。');
+          showToast('感謝訂閱！首購優惠碼 MRBROWN 已發送至您的信箱。');
           newsletterForm.reset();
         });
       }
