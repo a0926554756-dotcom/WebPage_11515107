@@ -505,7 +505,7 @@
       font-size: 0.875rem;
     }
 
-    /* 頂級視覺藝術插畫卡片 (CSS / SVG 幾何意象) */
+    /* 頂級視覺卡片 (內含 hero.jpg 主視覺圖片) */
     .hero-visual-card {
       position: relative;
       background: radial-gradient(circle at 50% 40%, #2f1d14 0%, #19100a 80%);
@@ -527,33 +527,17 @@
       background: linear-gradient(90deg, transparent, var(--gold-accent), transparent);
     }
 
-    .coffee-illustration-container {
-      position: relative;
-      width: 240px;
-      height: 240px;
+    .hero-image {
+      display: block;
+      width: 400px;
+      max-width: 100%;
+      height: auto;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
       margin: 0 auto 24px;
-      display: grid;
-      place-items: center;
-    }
-
-    .halo-ring {
-      position: absolute;
-      width: 220px;
-      height: 220px;
-      border: 1px dashed rgba(207, 168, 88, 0.45);
-      border-radius: 50%;
-      animation: rotateRing 30s linear infinite;
-    }
-
-    @keyframes rotateRing {
-      from { transform: rotate(0deg); }
-      to { transform: rotate(360deg); }
-    }
-
-    .coffee-beans-svg {
-      width: 140px;
-      height: 140px;
-      filter: drop-shadow(0 12px 25px rgba(0, 0, 0, 0.6));
+      border: 1px solid var(--line-gold);
+      border-radius: var(--radius-md);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.6);
     }
 
     .card-award-tag {
@@ -1679,21 +1663,8 @@
 
         <!-- 右側高階品牌意象卡片 -->
         <div class="hero-visual-card">
-          <div class="coffee-illustration-container">
-            <div class="halo-ring"></div>
-            <!-- 高階咖啡豆與沖煮純粹向量圖形 (暖咖啡金棕漸層) -->
-            <svg class="coffee-beans-svg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="100" cy="100" r="90" fill="url(#coffeeGrad)" stroke="#cfa858" stroke-width="2"/>
-              <ellipse cx="100" cy="100" rx="48" ry="68" fill="#3e2417" stroke="#e8c878" stroke-width="2.5" transform="rotate(-25 100 100)"/>
-              <path d="M80 50 C95 85, 105 115, 120 150" stroke="#cfa858" stroke-width="3.5" stroke-linecap="round"/>
-              <defs>
-                <radialGradient id="coffeeGrad" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(100 100) rotate(90) scale(90)">
-                  <stop stop-color="#4a2e1f"/>
-                  <stop offset="1" stop-color="#19100a"/>
-                </radialGradient>
-              </defs>
-            </svg>
-          </div>
+          <!-- 主視覺圖片：窗前桌椅、手沖濾杯與咖啡壺，窗外藍天山景 -->
+          <img class="hero-image" src="images/hero.jpg" alt="窗前木桌上擺著伯朗咖啡手沖濾杯與咖啡壺，窗外是陽光、山景與藍天白雲" width="400" height="300">
           <span class="card-award-tag">CUPPING MASTERPIECE</span>
           <h3 class="card-bean-name">巴拿馬・翡翠莊園 藝妓</h3>
           <p class="card-bean-origin">HACIENDA LA ESMERALDA · SPECIAL RESERVE</p>
