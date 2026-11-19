@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1318"/><stop offset="0.55" stop-color="#1b3442"/><stop offset="1" stop-color="#3a6470"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f6f3ea"/><stop offset="0.6" stop-color="#e4c88a" stop-opacity="0.6"/><stop offset="1" stop-color="#e4c88a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6f3ea" stop-opacity="0"/><stop offset="1" stop-color="#f6f3ea" stop-opacity="0.35"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <circle cx="1180" cy="230" r="170" fill="url(#moon)"/>
+  <circle cx="1180" cy="230" r="70" fill="#f6f3ea" opacity="0.85"/>
+  <path d="M0 620 L180 420 L300 520 L470 300 L620 470 L760 360 L900 520 L1080 330 L1250 500 L1400 380 L1600 540 L1600 900 L0 900 Z" fill="#20404d" opacity="0.75"/>
+  <path d="M0 700 L140 560 L260 640 L420 470 L560 600 L700 520 L860 650 L1010 500 L1180 640 L1340 540 L1600 680 L1600 900 L0 900 Z" fill="#162c37"/>
+  <!-- 懸空樓閣 -->
+  <g fill="#0d1318" transform="translate(420 300)">
+    <path d="M-60 0 Q0 -40 60 0 Z"/><rect x="-40" y="0" width="80" height="34"/>
+    <path d="M-80 34 Q0 4 80 34 Z"/><rect x="-55" y="34" width="110" height="40"/>
+    <path d="M-50 74 Q0 120 50 74 Z" fill="#20404d"/>
+  </g>
+  <rect x="0" y="560" width="1600" height="340" fill="url(#fog)"/>
+  <path d="M0 760 Q200 720 400 760 T800 760 T1200 760 T1600 760 L1600 900 L0 900 Z" fill="#0d1318"/>
+  <g fill="#e4c88a" opacity="0.7">
+    <circle cx="210" cy="140" r="2"/><circle cx="560" cy="90" r="1.5"/><circle cx="820" cy="180" r="2"/><circle cx="980" cy="70" r="1.5"/><circle cx="1450" cy="120" r="2"/>
+  </g>
+</svg>

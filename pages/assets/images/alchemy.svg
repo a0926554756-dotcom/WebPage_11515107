@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice">
+  <defs><radialGradient id="r" cx="0.5" cy="0.45" r="0.7"><stop offset="0" stop-color="#6b4a2a"/><stop offset="1" stop-color="#0d1318"/></radialGradient></defs>
+  <rect width="800" height="500" fill="url(#r)"/>
+  <ellipse cx="400" cy="200" rx="120" ry="40" fill="#e4c88a" opacity="0.25"/><path d="M300 220 Q400 200 500 220 L480 350 Q400 380 320 350 Z" fill="#c9a45c"/><rect x="290" y="205" width="220" height="20" rx="8" fill="#e4c88a"/><rect x="330" y="350" width="16" height="40" fill="#c9a45c"/><rect x="454" y="350" width="16" height="40" fill="#c9a45c"/><path d="M380 190 Q360 140 395 100 Q420 140 410 190 Z" fill="#e8a24a" opacity="0.8"/>
+  <rect x="0" y="400" width="800" height="100" fill="#0d1318" opacity="0.55"/>
+  <text x="400" y="462" text-anchor="middle" font-family="serif" font-size="24" fill="#e4c88a" letter-spacing="8">佔位圖・煉丹房</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8e1cf"/><stop offset="1" stop-color="#9fbcbc"/></linearGradient></defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <path d="M0 420 L160 300 L300 380 L460 260 L620 360 L800 300 L800 600 L0 600 Z" fill="#5f8e94" opacity="0.5"/>
+  <g fill="#1b3442">
+    <rect x="360" y="420" width="80" height="12"/>
+    <path d="M250 300 Q400 230 550 300 L520 310 L280 310 Z"/>
+    <rect x="300" y="310" width="200" height="60"/>
+    <path d="M220 370 Q400 300 580 370 L550 380 L250 380 Z"/>
+    <rect x="270" y="380" width="260" height="70"/>
+  </g>
+  <g fill="#c9a45c"><rect x="385" y="395" width="30" height="55"/><rect x="380" y="320" width="40" height="18"/></g>
+  <rect x="0" y="460" width="800" height="140" fill="#f6f3ea" opacity="0.55"/>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="22" fill="#1b3442" letter-spacing="8">佔位圖・雲霄大殿</text>
+</svg>
