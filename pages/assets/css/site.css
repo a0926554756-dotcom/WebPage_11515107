@@ -13,7 +13,7 @@
   --cloud: #f6f3ea;        /* 雲白 */
   --paper: #ece4d1;        /* 宣紙米色 */
   --paper-line: #d8ccb0;
-  --gold: #c9a45c;         /* 靈金 */
+  --gold: #a87d32;         /* 靈金 */
   --gold-light: #e4c88a;
   --text: #2a2620;
   --text-muted: #6b6253;
@@ -29,7 +29,7 @@
   --radius: 14px;
   --radius-sm: 8px;
   --shadow: 0 10px 30px rgba(13, 19, 24, 0.12);
-  --shadow-glow: 0 0 0 1px rgba(201, 164, 92, 0.35), 0 8px 28px rgba(95, 168, 160, 0.25);
+  --shadow-glow: 0 0 0 1px rgba(168, 125, 50, 0.35), 0 8px 28px rgba(95, 168, 160, 0.25);
   --nav-h: 68px;
 }
 
@@ -93,7 +93,7 @@ p { margin: 0 0 1em; }
   z-index: 50;
   background: rgba(13, 19, 24, 0.92);
   backdrop-filter: blur(8px);
-  border-bottom: 1px solid rgba(201, 164, 92, 0.25);
+  border-bottom: 1px solid rgba(168, 125, 50, 0.25);
 }
 
 .nav {
@@ -151,7 +151,7 @@ p { margin: 0 0 1em; }
   display: none;
   width: 44px;
   height: 44px;
-  border: 1px solid rgba(201, 164, 92, 0.5);
+  border: 1px solid rgba(168, 125, 50, 0.5);
   border-radius: var(--radius-sm);
   background: transparent;
   cursor: pointer;
@@ -302,7 +302,7 @@ p { margin: 0 0 1em; }
 
 .section-paper {
   background:
-    radial-gradient(circle at 15% 20%, rgba(201, 164, 92, 0.08), transparent 40%),
+    radial-gradient(circle at 15% 20%, rgba(168, 125, 50, 0.08), transparent 40%),
     var(--paper);
 }
 
@@ -399,7 +399,7 @@ p { margin: 0 0 1em; }
 
 .section-dark .card {
   background: rgba(27, 52, 66, 0.55);
-  border-color: rgba(201, 164, 92, 0.25);
+  border-color: rgba(168, 125, 50, 0.25);
 }
 .section-dark .card h3 { color: var(--gold-light); }
 .section-dark .card p { color: var(--text-on-dark-muted); }
@@ -550,7 +550,7 @@ p { margin: 0 0 1em; }
   background: var(--ink);
   color: var(--text-on-dark-muted);
   padding-block: 48px 28px;
-  border-top: 1px solid rgba(201, 164, 92, 0.25);
+  border-top: 1px solid rgba(168, 125, 50, 0.25);
 }
 
 .footer-top {
@@ -610,7 +610,7 @@ p { margin: 0 0 1em; }
     gap: 0;
     padding: 8px 20px 16px;
     background: rgba(13, 19, 24, 0.98);
-    border-bottom: 1px solid rgba(201, 164, 92, 0.25);
+    border-bottom: 1px solid rgba(168, 125, 50, 0.25);
     display: none;
   }
 
