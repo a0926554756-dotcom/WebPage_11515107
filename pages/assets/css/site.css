@@ -467,6 +467,13 @@ p { margin: 0 0 1em; }
   color: var(--gold);
 }
 
+/* 宗徽卡（about 專用，只作用於 .emblem-card） */
+.emblem-card { text-align: center; }
+.emblem-card .card-icon { display: block; margin-inline: auto; }
+.emblem-card .emblem-ring { color: var(--gold); }
+.emblem-card .emblem-peak { color: var(--jade); }
+.emblem-card .emblem-cloud { color: var(--text-on-dark); }
+
 /* 門規清單 */
 .rule-list {
   list-style: none;
